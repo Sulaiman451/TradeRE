@@ -17,28 +17,28 @@
   <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
 
   <body>
-    <div class="header-hero-container">
+    <div id="header-hero-container">
       <header>
-        <div class="flex container">
-          <a href="#" id="logo">TradeRE</a>
-          <nav>
-            <button id="nav-toggle" class="hamburger-menu">
-              <span class="strip"></span>
-              <span class="strip"></span>
-              <span class="strip"></span>
-              <span class="strip"></span>
-
-              <ul id="nav-menu">
-                <li><a href="#" class="active">Home</a></li>
-                <li><a href="#">Properties</a></li>
-                <li><a href="#">Agents</a></li>
-                <li><a href="#">News</a></li>
-                <li><a href="#">Contact</a></li>
-              </ul>
-            </button>
-          </nav>
-        </div>
-      </header>
+            <div class="flex container">
+              <a href="#" id="logo">TradeRE</a>
+              <nav>
+                <button id="nav-toggle" class="hamburger-menu">
+                  <span class="strip"></span>
+                  <span class="strip"></span>
+                  <span class="strip"></span>
+                </button>
+    
+                  <ul id="nav-menu">
+                    <li><a href="#" class="active">Home</a></li>
+                    <li><a href="http://www.google.com" target="_blank">Properties</a></li>
+                    <li><a href="#">Agents</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">News</a></li>
+                    <li><a href="#">Contact</a></li>
+                  </ul>
+              </nav>
+            </div>
+          </header>
 
       <section id="hero">
         <div class="fade"></div>
@@ -195,49 +195,64 @@
 
     <section id="services">
       <div class="container">
-        <h2>Services</h2>
-        <div class="flex">
-          <div>
-            <div class="fas fa-dollar-sign"></div>
-            <div class="services-card-right"><h3>Buy Property</h3>
-              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
-              <a href="#">Learn More</a>
-            </div>
+          <h2>Services</h2>
+          <div class="flex">
+              <div>
+                  <div class="fas fa-home"></div>
+                  <div class="services-card-right">
+                      <h3>Search Property</h3>
+                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis quis molestiae vitae eligendi at.</p>
+                      <a href="#">Learn More</a>
+                  </div>
+              </div>
+
+              <div>
+                  <div class="fas fa-dollar-sign"></div>
+                  <div class="services-card-right">
+                      <h3>Buy Property</h3>
+                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis quis molestiae vitae eligendi at.</p>
+                      <a href="#">Learn More</a>
+                  </div>
+              </div>
+
+              <div>
+                  <div class="fas fa-chart-line"></div>
+                  <div class="services-card-right">
+                      <h3>Investing</h3>
+                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis quis molestiae vitae eligendi at.</p>
+                      <a href="#">Learn More</a>
+                  </div>
+              </div>
+
+              <div>
+                  <div class="fas fa-building"></div>
+                  <div class="services-card-right">
+                      <h3>List a Property</h3>
+                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis quis molestiae vitae eligendi at.</p>
+                      <a href="#">Learn More</a>
+                  </div>
+              </div>
+
+              <div>
+                  <div class="fas fa-search"></div>
+                  <div class="services-card-right">
+                      <h3>Property Locator</h3>
+                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis quis molestiae vitae eligendi at.</p>
+                      <a href="#">Learn More</a>
+                  </div>
+              </div>
+
+              <div>
+                  <div class="fas fa-mobile-alt"></div>
+                  <div class="services-card-right">
+                      <h3>Stated Apps</h3>
+                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis quis molestiae vitae eligendi at.</p>
+                      <a href="#">Learn More</a>
+                  </div>
+              </div>
           </div>
-          <div class="fas fa-chart-line"></div>
-          <div class="services-card-right"><h3>Investing</h3>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
-            <a href="#">Learn More</a>
-          </div>
-        </div>
-          <div class="fas fa-building"></div>
-          <div class="services-card-right"><h3>List a Property</h3>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
-            <a href="#">Learn More</a>
-          </div>
-        </div>
-        <div class="fas fa-search"></div>
-        <div class="services-card-right"><h3>Property Locator</h3>
-          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
-          <a href="#">Learn More</a>
-        </div>
       </div>
-      <div class="fas fa-mobile-alt"></div>
-      <div class="services-card-right"><h3>TradeRE Apps</h3>
-        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
-        <a href="#">Learn More</a>
-      </div>
-          </div>
-          <div class="fas fa-home"></div>
-          <div class="services-card-right"><h3>Search Property</h3>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
-            <a href="#">Learn More</a>
-          </div>
-        </div>
-        </div>
-        </div>
-      </div>
-    </section>
+  </section>>
 
     <section id="testimonials">
       <div class="container">
@@ -272,76 +287,81 @@
 
     <section id="contact">
       <div class="container">
-        <h2>Contact Us</h2>
+          <h2>Contact Us</h2>
 
-        <div class="flex">
-          <div id="form-container">
-            <div id="address-container">
-              <h3>Contact Form</h3>
-              <form>
-                <label for="name">Name</label>
-                <input type="text" id="name">
-                <label for="email">Email</label>
-                <input type="text" id="email">
-                <label for="subject">Subject</label>
-                <input type="text" id="subject">
-                <label for="message">Message</label>
-                <textarea id="message">Write your message here...</textarea>
+          <div class="flex">
+              <div id="form-container">
+                  <h3>Contact Form</h3>
+                  <form>
+                      <label for="name">Name</label>
+                      <input type="text" id="name" />
 
-                <button class="rounded">Send Message</button>
-              </form>
-            </div>
+                      <label for="email">Email Address</label>
+                      <input type="text" id="email" />
 
-            <div id="address-container">
-              <label>Address</label>
-              <address>100 Guild Street, London, NW11 4DP</address>
+                      <label for="subject">Subject</label>
+                      <input type="text" id="subject" />
 
-              <label>Phone</label>
-              <a href="#">07926626410</a>
+                      <label for="message">Message</label>
+                      <textarea id="message">Write your message here..</textarea>
 
-              <label>Email Address</label>
-              <a href="#">loremipsum@domain.com</a>
-            </div>
+                      <button class="rounded">Send Message</button>
+                  </form>
+              </div>
+
+              <div id="address-container">
+                  <label>Address</label>
+                  <address>
+                     94 Crown Street, London, SW16 0JA
+                  </address>
+
+                  <label>Phone</label>
+                  <a href="#">07782078463</a>
+
+                  <label>Email Address</label>
+                  <a href="#">loremipsum@domain.com</a>
+              </div>
           </div>
-        </div>
       </div>
-    </section>
+  </section>
 
-    <footer>
-      <div class="flex container">
+  <footer>
+    <div class="flex container">
         <div class="footer-about">
-          <h5>About TradeRE</h5>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi expedita tempore quaerat hic harum quis et ab voluptates? Ducimus eligendi, sequi facere deleniti ipsum id ut dolor quia vel maiores.</p>
+            <h5>About TradeRE</h5>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque facere laudantium magnam voluptatum autem. Amet aliquid nesciunt veritatis aliquam.</p>
         </div>
 
         <div class="footer-quick-links">
-          <h5>Quick Links</h5>
-          <ul>
-            <li>About Us</li>
-            <li>Services</li>
-            <li>testimonials</li>
-            <li>Contact Us</li>
-          </ul>
+            <h5>Quick Links</h5>
+            <ul>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Testimonials</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
         </div>
 
         <div class="footer-subscribe">
-          <h5>Subscribe to our newsletter</h5>
-          <div class="subscribe-contaienr">
-            <input type="text" placeholder="Enter Email">
-            <button class="right-rounded">Send</button>
-          </div>
+            <h5>Subscribe to our Newsletter</h5>
+            <div id="subscribe-container">
+                <input type="text" placeholder="Enter Email" />
+                <button class="right-rounded">Send</button>
+            </div>
 
-          <h5>Follow Us</h5>
-          <ul>
-            <li><a href="#"><span class="fab fa-facebook-f"></span></a></li>
-            <li><a href="#"><span class="fab fa-twitter"></span></a></li>
-            <li><a href="#"><span class="fab fa-instagram"></span></a></li>
-            <li><a href="#"><span class="fab fa-linkedin-in"></span></a></li>
-          </ul>
+            <h5 class="follow-us">Follow Us</h5>
+            <ul>
+                <li><a href="#"><span class="fab fa-facebook-f"></span></a></li>
+                <li><a href="#"><span class="fab fa-twitter"></span></a></li>
+                <li><a href="#"><span class="fab fa-instagram"></span></a></li>
+                <li><a href="#"><span class="fab fa-linkedin-in"></span></a></li>
+            </ul>
         </div>
-      </div>
+    </div>
 
-      <small>Copyright &copy; 2021 All rights reserved | This template is made with <span class="fa fa-heart"></span> by <a href="https://colorlib.com">Colorlib</a></small>
-    </footer>
+    <small>
+        Copyright &copy; 2021 All rights reserved | This template is made with <span class="fa fa-heart"></span> by <a href="https://colorlib.com">Colorlib</a>
+    </small>
+</footer>
   </body>
 </html>
